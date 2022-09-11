@@ -3,7 +3,7 @@ import { Cards, Charts, CountryPicker } from './components';
 import { fetchData } from "./api";
 import styles from './App.module.css';
 import coronaImage from './images/image.png';
-import Particles from "react-particles-js";
+// import Particles from "react-particles-js";
 import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
 import BottomNavigation from "@material-ui/core/BottomNavigation";
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -35,7 +35,7 @@ class App extends React.Component{
         const {data, country} = this.state;
             return (
                 <div>
-                    <Particles
+                    {/* <Particles
                         style={{ position: "absolute" }}
                         height="100%"
                         width="100%"
@@ -78,7 +78,7 @@ class App extends React.Component{
                                     }
                                 }
                         }}
-                    />
+                    /> */}
                 <div className={styles.container}>
                     <div>
                     <div>
